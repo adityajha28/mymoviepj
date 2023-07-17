@@ -169,7 +169,7 @@ const MovieDetailPage = () => {
 
   return (
     <div className="movie-detail-page">
-      <h2 className="detail-heading">Movie Detail</h2>
+      <h2 className="detail-heading">Movie Details</h2>
       <div className="movie-details">
         <div className="poster-container">
           <img
@@ -182,8 +182,8 @@ const MovieDetailPage = () => {
           <h3 className="movie-title">{movie.title}</h3>
           <div className="movie-meta">
             <span className="release-date">Release Date: {movie.release_date}</span>
-            <span className="runtime">Runtime: {movie.runtime} mins</span>
-            <span className="vote-average">Average Vote: {movie.vote_average}</span>
+            <div> <span className="runtime">Runtime: {movie.runtime} mins</span> </div>
+            <div><span className="vote-average">Average Vote: {movie.vote_average}</span></div>
           </div>
           <h4 className="overview-heading">Overview</h4>
           <p className="overview">{movie.overview}</p>
@@ -204,7 +204,7 @@ const MovieDetailPage = () => {
              />
              <div className="cast-details">
             <span className="cast-name">{cast.name}  </span>
-            <span className="cast-character"> as {cast.character}</span>
+            <div><span className="cast-character"> {cast.character}</span></div>
             </div>
             </li>
           ))}
