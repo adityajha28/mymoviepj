@@ -1,0 +1,186 @@
+ /* .movie-detail-page {
+    padding: 20px;
+  }
+  
+  .detail-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .poster-container {
+    margin-right: 20px;
+  }
+  
+  .movie-poster {
+    width: 300px;
+    height: auto;
+  }
+  
+  .info-container {
+    flex: 1;
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .movie-meta {
+    margin-bottom: 10px;
+  }
+  
+  .release-date,
+  .runtime,
+  .vote-average {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .overview-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .overview {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .genres-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .genres-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .genre-item {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #e5e5e5;
+    padding: 5px 10px;
+    border-radius: 5px;
+  } */
+  .movie-detail-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .detail-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .poster-container {
+    margin-right: 20px;
+  }
+  
+  .movie-poster {
+    width: 300px;
+    height: auto;
+  }
+  
+  .info-container {
+    flex-grow: 1;
+  }
+  
+  .movie-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-meta {
+    margin-bottom: 10px;
+  }
+  
+  .release-date,
+  .runtime,
+  .vote-average {
+    margin-right: 10px;
+  }
+  
+  .overview-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .overview {
+    margin-bottom: 10px;
+  }
+  
+  .genres-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .genres-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .genre-item {
+    margin-right: 5px;
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .casting-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .casting-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .cast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #686363;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #bfe3ec; 
+  }
+  
+  .cast-profile {
+    width: 150px;
+    height: auto;
+    border-radius: 20%;
+    margin-bottom: 10px;
+  }
+  
+  .cast-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .cast-character {
+    color: #666;
+  }
+  

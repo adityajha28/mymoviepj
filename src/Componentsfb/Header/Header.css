@@ -1,0 +1,58 @@
+.fbheader {
+  width: 100%;
+  height: 12rem;
+  background:black;
+  padding: 0 20px;
+  border-radius:0px ;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+.fbheadercon {
+  max-width: 1280px;
+  min-height: 120px;
+  height: auto;
+  padding: 20px 0px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+.FBlog {
+  width:122px;
+  margin-top: 25px;
+  float: center;
+
+}
+
+.fblogo {
+  width: 250px;
+  margin-top: 10px;
+  float: left;
+}
+
+.headerlogo {
+  width: 150px;
+  margin-top: 25px;
+  float: right;
+}
+
+
+@media screen and (max-width: 500px) {
+  .fbheadercon {
+    max-width: 1280px;
+    min-height: 0px;
+  }
+
+  .headerlogo {
+    display: inline-block;
+    width:80px;
+    margin-top: 0px;
+  }
+
+  .fblogo {
+    width: 150px;
+    margin-top: 5px;
+  }
+}
