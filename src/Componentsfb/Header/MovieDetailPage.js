@@ -312,7 +312,7 @@ const MovieDetailPage = () => {
             <div className="trailer-container">
               <iframe
                 title="Movie Trailer"
-                width="100%"
+                width="700"
                 height="400"
                 src={`https://www.youtube.com/embed/${trailerKey}`}
                 frameBorder="0"

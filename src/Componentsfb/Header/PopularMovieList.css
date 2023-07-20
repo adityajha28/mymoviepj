@@ -35,9 +35,9 @@
   }
   
   .movie-item {
-    background-color: rgba(212, 229, 229, 0.952);
+    background-color: rgba(45, 48, 48, 0.952);
     border-radius: 10px;
-    padding: 10px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
