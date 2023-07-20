@@ -1,6 +1,6 @@
 .fbheader {
   width: 100%;
-  height: 12rem;
+  height: 10rem;
   background:black;
   padding: 0 20px;
   border-radius:0px ;
@@ -27,8 +27,8 @@
 }
 
 .fblogo {
-  width: 250px;
-  margin-top: 10px;
+  width: 200px;
+  margin: 8px ;
   float: left;
 }
 
@@ -56,3 +56,6 @@
     margin-top: 5px;
   }
 }
+
+
+

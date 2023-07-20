@@ -519,7 +519,7 @@ const MovieListing = () => {
       try { 
         if (searchTerm) {
           const response = await fetch(
-            `https://api.themoviedb.org/3/search/movie?api_key=60fa11f117911a1fc6479b38ad505cdd&language=en-US&page=${page}&include_adult=false&query=${encodeURIComponent(searchTerm)}`
+            `https://api.themoviedb.org/3/search/movie?api_key=558f43c34f606c4299fddeeb1b99fec1&language=en-US&page=${page}&include_adult=false&query=${encodeURIComponent(searchTerm)}`
           );
           if (!response.ok) {
             throw new Error("Failed to fetch movies.");
@@ -532,7 +532,7 @@ const MovieListing = () => {
           }
         } else {
           const response = await fetch( 
-            `https://api.themoviedb.org/3/movie/popular?api_key=60fa11f117911a1fc6479b38ad505cdd&language=en-US&page=${page}`);
+            `https://api.themoviedb.org/3/movie/popular?api_key=558f43c34f606c4299fddeeb1b99fec1&language=en-US&page=${page}`);
           if (!response.ok) {
             throw new Error("Failed to fetch movies.");
           }
